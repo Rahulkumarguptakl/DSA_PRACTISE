@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main(){
+    char x='A';
+    if( isalpha(x)){
+    if( x=='A'||x=='E'||x=='O'||x=='U'||x=='V'){
+        cout<<"Vowel";
+    }else{
+        cout<<"Const";
+    }
+    }
+    return 0;
+    
+}
