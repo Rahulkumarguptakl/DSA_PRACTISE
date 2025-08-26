@@ -1,0 +1,9 @@
+#include<iostream>
+using namespace std;
+int main(){
+    char ch;
+    ch='A';
+    cout<<"ASCII Value of a Character "<< ch <<" is "<<int(ch)<<endl;
+    
+    return 0;
+}
