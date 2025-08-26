@@ -1,0 +1,19 @@
+//3. C++ Program To Check Whether Number is Even Or Odd
+#include<iostream>
+using namespace std;
+ bool Even(int n){
+     return n%2==0;
+     
+ }
+int main(){
+    int n=55;
+
+    if ( Even(n)==true){
+        cout<<"even";
+    }
+    else{
+        cout<<"odd";
+    }
+    
+    return 0;
+}
