@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int isfactorial(int n){
+    int sum=1;
+    while(n>1){
+        sum=sum*n;
+        n--;
+        
+    }
+    return sum;
+}
+int main(){
+    int n=5;
+    cout<<" Factorial of a Number Using Loops "<<isfactorial(n)
+    <<endl;
+    return 0;
+}
