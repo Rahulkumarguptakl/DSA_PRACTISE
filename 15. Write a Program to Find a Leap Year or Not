@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+bool leapyear(int year){
+    if (year % 400 == 0)
+        return true;
+        
+         if (year % 100 == 0)
+        return false;
+
+ if (year % 4 == 0)
+        return true;
+        
+        
+        return false;
+    
+}
+int main(){
+    int year=2000;
+    if(leapyear(year)){
+        cout<<"leapyear ";
+    }else{
+        cout<<"notleap year";
+    }
+    return 0;
+}
